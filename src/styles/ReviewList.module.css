@@ -1,0 +1,11 @@
+.ReviewList {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 20em;
+    overflow-y: scroll;
+}
+
+.ReviewList > * {
+    padding: 0.5vw 0;
+}

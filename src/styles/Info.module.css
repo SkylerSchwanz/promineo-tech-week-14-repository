@@ -1,0 +1,61 @@
+.InfoBody {
+    /* Background */
+    background-color: rgb(15,15,15);
+    border: solid 5px silver;
+
+    /* Border*/
+    border-radius: 5px;
+    padding: 20px;
+
+    /* Flex */
+    display: flex;
+    flex-direction: column;
+
+    /* Sizing */
+    width: 45vw;
+    height: 90vh;
+
+    /* Positioning */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 150;
+}
+
+.MovieInfo {
+    margin-top: 4vh;
+    background-color: silver;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.MovieInfo *:not(path) {
+    color: black;
+}
+
+.MovieNameRating {
+    display: flex;
+    align-items: center;
+}
+
+.MovieNameRating > * {
+    margin: 0 0.5vmin;
+}
+
+.BackButton {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 10px;
+    background-color: silver;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+}
+
+.BackButton > * {
+    padding: 0;
+    margin: 0 0.65vmin;
+    font-size: 2.5vmin;
+}

@@ -1,0 +1,41 @@
+ul, li, input, label {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    list-style: none;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+}
+
+.starsDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: min-content;
+    height: min-content;
+}
+
+.starsDiv * {
+    padding: 0;
+    margin: 0 0.1vw;
+}
+
+.starLabel {
+  cursor: pointer;
+}
+
+.starIcon {
+  color: dimgray;
+  transition: color 0.3s ease;
+}
+
+/* Style the active/hovered stars */
+.starInput:checked + .starIcon,
+.starLabel:hover .starIcon {
+  color: cornflowerblue;
+}

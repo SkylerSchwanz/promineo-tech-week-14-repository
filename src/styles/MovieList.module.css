@@ -1,0 +1,8 @@
+.MovieListContainer {
+    width: 100vw;
+}
+
+.MovieList {
+    width: stretch;
+    overflow-x: scroll;
+}

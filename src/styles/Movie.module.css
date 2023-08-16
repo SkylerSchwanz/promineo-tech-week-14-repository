@@ -1,0 +1,38 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  z-index: 100; /* Higher than the Movie buttons, lower than the Info component */
+  pointer-events: auto; /* Enable pointer events on the overlay */
+
+}
+
+.MovieContainer {
+    margin: 0 0.5vw;
+}
+
+.MovieContainer > button {
+    background-color: silver;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 8px;
+    border: none;
+}
+
+.MovieImage {
+    height: 20vw;
+}
+
+.NameRating {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+
+.NameRating > * {
+    margin: 0 0.25vw;
+}

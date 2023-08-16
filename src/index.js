@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { MovieList } from './components/MovieList';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <MovieList genre="Action" />
+    <MovieList genre="Thriller" />
+    <MovieList genre="Science Fiction" />
   </React.StrictMode>
 );
 

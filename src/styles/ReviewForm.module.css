@@ -1,0 +1,91 @@
+form {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    background-color: dimgray;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+form > *:not(label) {
+    margin-top: 2vh;
+}
+
+.NameRatingSubmit {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: stretch;
+}
+
+.NameRatingSubmit > * {
+    margin: 0 1vw;
+}
+
+.SubmitButton {
+    background-color: silver;
+    border: transparent;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.NameDiv {
+    display: flex;
+    flex-direction: column;
+    background-color: silver;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.NameDiv > *:not(input) {
+    color: black;
+}
+
+.NameDiv > input {
+    border: transparent;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.RatingDiv {
+    padding: 5px;
+    background-color: silver;
+    border-radius: 5px;
+}
+
+.RatingDiv > * {
+    color: black;
+}
+
+.RatingDiv > ul {
+    margin: 0;
+}
+
+.BodyInputDiv {
+    width: stretch;
+    height: 5em;
+}
+
+.bodyInput {
+    resize: none;
+    align-self: center;
+    height: 100%;
+    width: stretch;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.BodyDiv {
+    background-color: silver;
+    border: transparent;
+    border-radius: 2px;
+}
+
+.BodyDiv > * {
+    color: black;
+    font-size: 20px;
+}
