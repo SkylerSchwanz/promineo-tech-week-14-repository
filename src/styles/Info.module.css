@@ -13,13 +13,14 @@
 
     /* Sizing */
     width: 45vw;
-    height: inherit;
+    height: fit-content;
 
     /* Positioning */
     position: absolute;
+    margin-top: -30vh;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0);
     z-index: 150;
 }
 
