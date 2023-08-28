@@ -8,7 +8,7 @@ export function MovieList({ genre } ) {
     
     return (
       <div className={styles.MovieListContainer}>
-        <h1 style={{color: 'whitesmoke'}}>{genre} Moviess</h1>
+        <h1 className={styles["movie-list-header"]}>{genre} Movies</h1>
         <ul className={styles.MovieList}>
             {moviesData.filter(movie => movie.genre === genre).map((movie, index) => (
             <li key={index}>

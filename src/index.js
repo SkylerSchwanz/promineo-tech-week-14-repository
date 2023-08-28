@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { MovieList } from './components/MovieList';
+import HeaderTitle from './components/HeaderTitle';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <HeaderTitle title="ScreenSavvy" tagline="Your Movie Review Destination" />
     <MovieList genre="Action" />
     <MovieList genre="Thriller" />
     <MovieList genre="Science Fiction" />

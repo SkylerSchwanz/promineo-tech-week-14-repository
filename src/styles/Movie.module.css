@@ -11,26 +11,37 @@
 }
 
 .MovieContainer {
-    margin: 0 0.5vw;
+    margin: 0 0.5vw; /* Slightly increased margin for spacing */
+    width: fit-content; /* Increase the width of the movie container */
 }
 
 .MovieContainer > button {
-    background-color: silver;
+    background-color: whitesmoke;
     cursor: pointer;
     border-radius: 15px;
     padding: 8px;
     border: none;
+    width: 200px; /* Set a fixed width for the button */
 }
 
 .MovieImage {
-    height: 20vw;
+    height: 250px; /* Increase the height of the image */
 }
 
 .NameRating {
     display: flex;
     align-items: center;
-    width: fit-content;
+    width: 185px; /* Set a specific width */
+    overflow: hidden; /* Enable overflow and hide extra content */
     margin: auto;
+    height: 50px; /* Example fixed height */
+}
+
+.NameRating > h3 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; /* Important for ellipsis to work */
+    margin: 0;
 }
 
 .NameRating > * {

@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+.movie-list-header {
+    color: silver;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
 .MovieListContainer {
     width: 100vw;
 }
